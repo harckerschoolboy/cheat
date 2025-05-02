@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         Cheat de charles
+// @name         CHEAT DE CHARLES!
 // @version      1.0.25
-// @namespace    https://github.com/harckerschoolboy
+// @namespace    https://github.com/jokeri2222
 // @description  A hack for kahoot.it!
-// @updateURL    https://github.com/harckerschoolboy/KaHack/raw/main/KaHack!.meta.js
-// @downloadURL  https://github.com/harckerschoolboy/KaHack/raw/main/KaHack!.user.js
-// @author       harckerschoolboy; (https://github.com/harckerschoolboy)
+// @updateURL    https://github.com/jokeri2222/KaHack/raw/main/KaHack!.meta.js
+// @downloadURL  https://github.com/jokeri2222/KaHack/raw/main/KaHack!.user.js
+// @author       jokeri2222; https://github.com/jokeri2222
 // @match        https://kahoot.it/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=kahoot.it
 // @grant        none
@@ -50,7 +50,7 @@ const handle = document.createElement('div');
 handle.className = 'handle';
 handle.style.fontFamily = '"Montserrat", "Noto Sans Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;';
 handle.style.fontSize = '1.5vw';
-handle.textContent = 'Cheat de charles!';
+handle.textContent = 'CHEAT DE CHARLES!';
 handle.style.color = 'white';
 handle.style.width = '97.5%';
 handle.style.height = '2.5vw';
@@ -412,7 +412,7 @@ inputLagLabel.style.color = 'white';
 uiElement.appendChild(inputLagLabel);
 
 const versionLabel = document.createElement('h1');
-versionLabel.textContent = 'Cheat de charles V'+Version;
+versionLabel.textContent = 'KaHack! V'+Version;
 versionLabel.style.fontFamily = '"Montserrat", "Noto Sans Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;';
 versionLabel.style.fontSize = '2.5vw';
 versionLabel.style.display = 'block';
@@ -436,14 +436,24 @@ githubLabel.style.color = 'white';
 githubContainer.appendChild(githubLabel);
 
 const githubUrl = document.createElement('a');
-githubUrl.textContent = 'charles';
-githubUrl.href = 'https://github.com/harckerschoolboy';
+githubUrl.textContent = 'jokeri2222';
+githubUrl.href = 'https://github.com/jokeri2222';
 githubUrl.target = '_blank';
 githubUrl.style.fontFamily = '"Montserrat", "Noto Sans Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;';
 githubUrl.style.fontSize = '1.5vw';
 githubUrl.style.margin = '0 1vw';
 githubUrl.style.color = 'white';
 githubContainer.appendChild(githubUrl);
+
+const githubUrl2 = document.createElement('a');
+githubUrl2.textContent = 'Epic0001';
+githubUrl2.href = 'https://github.com/Epic0001';
+githubUrl2.target = '_blank';
+githubUrl2.style.fontFamily = '"Montserrat", "Noto Sans Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;';
+githubUrl2.style.fontSize = '1.5vw';
+githubUrl2.style.margin = '0 1vw';
+githubUrl2.style.color = 'white';
+githubContainer.appendChild(githubUrl2);
 
 uiElement.appendChild(githubContainer);
 
