@@ -5,7 +5,7 @@
 // @description  A hack for kahoot.it!
 // @updateURL    https://github.com/harckerschoolboy/KaHack/raw/main/KaHack!.meta.js
 // @downloadURL  https://github.com/harckerschoolboy/KaHack/raw/main/KaHack!.user.js
-// @author       jokeri2222; https://github.com/jokeri2222
+// @author       harckerschoolboy; (https://github.com/harckerschoolboy)
 // @match        https://kahoot.it/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=kahoot.it
 // @grant        none
@@ -412,7 +412,7 @@ inputLagLabel.style.color = 'white';
 uiElement.appendChild(inputLagLabel);
 
 const versionLabel = document.createElement('h1');
-versionLabel.textContent = 'KaHack! V'+Version;
+versionLabel.textContent = 'Cheat de charles V'+Version;
 versionLabel.style.fontFamily = '"Montserrat", "Noto Sans Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;';
 versionLabel.style.fontSize = '2.5vw';
 versionLabel.style.display = 'block';
@@ -436,24 +436,14 @@ githubLabel.style.color = 'white';
 githubContainer.appendChild(githubLabel);
 
 const githubUrl = document.createElement('a');
-githubUrl.textContent = 'jokeri2222';
-githubUrl.href = 'https://github.com/jokeri2222';
+githubUrl.textContent = 'charles';
+githubUrl.href = 'https://github.com/harckerschoolboy';
 githubUrl.target = '_blank';
 githubUrl.style.fontFamily = '"Montserrat", "Noto Sans Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;';
 githubUrl.style.fontSize = '1.5vw';
 githubUrl.style.margin = '0 1vw';
 githubUrl.style.color = 'white';
 githubContainer.appendChild(githubUrl);
-
-const githubUrl2 = document.createElement('a');
-githubUrl2.textContent = 'Epic0001';
-githubUrl2.href = 'https://github.com/Epic0001';
-githubUrl2.target = '_blank';
-githubUrl2.style.fontFamily = '"Montserrat", "Noto Sans Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;';
-githubUrl2.style.fontSize = '1.5vw';
-githubUrl2.style.margin = '0 1vw';
-githubUrl2.style.color = 'white';
-githubContainer.appendChild(githubUrl2);
 
 uiElement.appendChild(githubContainer);
 
